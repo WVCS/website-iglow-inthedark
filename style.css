@@ -13,3 +13,21 @@ img{
   margin: auto;
   width: 50%;
 }
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Times New Roman;
+}
+
+/* Style the header */
+header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
