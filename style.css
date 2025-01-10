@@ -2,6 +2,21 @@
 body {
   background-color: #0D5A8D;
 }
+
+h1{
+  color: white;
+  font-size: 200%;
+  font-family: Lucida Handwriting;
+  letter-spacing: 3px;
+}
+
+h2{
+  color: white;
+  font-size: 200%;
+  font-family: Georgia;
+  letter-spacing: 3px;
+}
+
 h3 {
   color: #3E82AF;
   font-size: 50px;
@@ -12,12 +27,39 @@ img{
   display: block;
   margin: auto;
   width: 50%;
-}
-
-<style>
-* {
   box-sizing: border-box;
 }
+
+ul{
+  background-color: black;
+  list-style-type: none;
+  margin: 0;
+  width: 100%;
+  padding: 10px;
+  top: 0;
+  left: 0;
+  position: fixed;
+}
+
+li{
+  display: inline;
+  padding: 8px 40px;
+  float: left;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  font-family: Georgia;
+  
+}
+li a:hover{
+  background-color: #DFCF81;
+  color: #8C7918;
+  padding: 12px 6px;
+  opacity: 1;
+}
+  
 
 body {
   font-family: Times New Roman;
